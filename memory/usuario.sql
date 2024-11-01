@@ -1,0 +1,4 @@
+CREATE DATABASE memory;
+CREATE USER 'memory'@'%' IDENTIFIED BY 'orlando';
+GRANT ALL PRIVILEGES ON memory.* TO 'memory'@'%';
+FLUSH PRIVILEGES;
